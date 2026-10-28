@@ -44,7 +44,6 @@ It uses ES modules and the built-in `fetch`, so it needs Node.js 18 or newer. Ch
 - Directories are read one level deep, and every entry is treated as a file.
 - Only `http` and `https` links match the regex, and links with a `?` or `#` right after the first character are skipped.
 - The `cli:valida` npm script passes `--valida`, but the CLI expects plain `valida`.
-- `node_modules/chalk` was committed by mistake and should be removed from the repo and added to `.gitignore`.
 - No tests.
 
 ---
